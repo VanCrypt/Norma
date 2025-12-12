@@ -1,4 +1,4 @@
-# Norma — RAG-based IT Compliance Assistant
+# RAG Assistant with Serverless LLMs and Local Pipeline
 
 **Norma** is an intelligent assistant for **IT compliance and cybersecurity standards**.
 Using *Retrieval-Augmented Generation (RAG)* on Azure, Norma answers questions from PDF standards and policy documents to support **compliance checks, audits, and gap analysis**.
@@ -73,7 +73,7 @@ Answers include **relevant excerpts from the source PDFs**, providing context an
 ### Installation
 
 ```bash
-git clone https://github.com/VanCrypt/norma-rag-it-compliance.git
+git clone https://github.com/VanCrypt/RAG-Assistant-with-Serverless-LLMs-and-Local-Pipeline.git
 cd norma-rag-it-compliance
 pip install -r requirements.txt
 ```
@@ -117,14 +117,8 @@ Open your browser and navigate to:
 http://localhost:8000
 ```
 
-From this endpoint, a **simple front-end interface** is available, allowing you to:
+From this endpoint, a **simple front-end interface** is available
 
-* ✍️ Write a compliance-related question
-* 📄 Query the indexed PDF standards
-* 💬 View the generated answer instantly
-* 🔎 Inspect how Norma responds to audit and compliance queries
-
-This interface is intended for **quick testing, demonstrations, and exploratory compliance analysis**.
 
 
 
