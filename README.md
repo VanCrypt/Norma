@@ -102,7 +102,31 @@ curl -X POST http://localhost:8000/query \
      -d '{"question": "What are ISO 27001 Annex A controls for encryption?"}'
 ```
 
----
+
+### ▶️ Accessing Norma via the Browser
+
+Once the FastAPI server is running:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Open your browser and navigate to:
+
+```
+http://localhost:8000
+```
+
+From this endpoint, a **simple front-end interface** is available, allowing you to:
+
+* ✍️ Write a compliance-related question
+* 📄 Query the indexed PDF standards
+* 💬 View the generated answer instantly
+* 🔎 Inspect how Norma responds to audit and compliance queries
+
+This interface is intended for **quick testing, demonstrations, and exploratory compliance analysis**.
+
+
 
 
 
